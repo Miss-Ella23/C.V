@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading {
+    background-color: white;
+    margin: auto;
+}
+.heading  h1{
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+.heading p {
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 0.7rem;
+}
+
+@media screen and (max-width: 1100px){
+    .heading  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .heading p {
+        padding-top: 0.5rem;
+        letter-spacing: 1px;
+        font-size: 0.6rem;
+    }
+}
+.ps-info {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+.ps-info h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+.ps-info h1::before, .ps-info h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.ps-info h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.ps-info h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+
+table.ps-info-table {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: black;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1100px){
+    .ps-info h1{
+    padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .ps-info h1::before{
+        right: 0.5rem;
+}
+.ps-info h1::after{
+    left: 0.5rem;
+}
+
+table.ps-info-table {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    padding-top: 0.5rem;
+    margin-top: 8px;
+    line-height: 1rem;
+    
+}
+}
+
+.career {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.career h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.career h1::before, .career h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.career h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.career h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+.career p {
+    text-align:start;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 2rem;
+    color: black;
+    padding-top: 0.7rem;
+}
+@media screen and (max-width: 1100px){
+    .career  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .career p {
+        padding-top: 0.5rem;
+        letter-spacing: 1px;
+        font-size: 0.6rem;
+    }
+    .career h1::before{
+        right: 0.5rem;
+}
+.career h1::after{
+    left: 0.5rem;
+}
+}
+
+.ps-attr {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.ps-attr h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.ps-attr h1::before, .ps-attr h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+} 
+.ps-attr h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.ps-attr h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+.ps-attr li{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: black;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1100px){
+    .ps-attr  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .ps-attr h1::before{
+        right: 0.5rem;
+}
+    .ps-attr h1::after{
+    left: 0.5rem;
+}
+
+.ps-attr li{
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+}
+
+.work-history {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.work-history h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.work-history h1::before, .work-history h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.work-history h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+.work-history h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+.work-history p {
+    text-align:start;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    color: black;
+    padding-top: 0.7rem;
+}
+
+.work-history li{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: black;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1100px){
+    .work-history  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .work-history h1::before{
+        right: 0.5rem;
+}
+    .work-history h1::after{
+    left: 0.5rem;
+}
+.work-history p {
+    padding-top: 0.5rem;
+    letter-spacing: 1px;
+    font-size: 0.6rem;
+}
+
+.work-history li{
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+}
+
+.education {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.education h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.education h1::before, .education h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.education h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.education h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+table.education-tb {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    line-height: 2rem;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1100px){
+    .education  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .education h1::before{
+        right: 0.5rem;
+}
+    .education h1::after{
+    left: 0.5rem;
+}
+
+table.education-tb {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    padding-top: 0.5rem;
+    margin-top: 8px;
+    line-height: 1rem;
+    
+}
+}
+.cert-obt {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.cert-obt h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.cert-obt h1::before, .cert-obt h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.cert-obt h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.cert-obt h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+table.cert {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+    line-height: 2rem;
+    margin-top: 10px;
+    text-align: justify;
+}
+@media screen and (max-width: 1100px){
+    .cert-obt  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .cert-obt h1::before{
+        right: 0.5rem;
+}
+    .cert-obt h1::after{
+    left: 0.5rem;
+}
+table.cert {
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    padding-top: 0.5rem;
+    margin-top: 8px;
+    line-height: 1rem;
+    
+}
+}
+
+.hobbs {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+.hobbs h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.hobbs h1::before, .hobbs h1::after{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.hobbs h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.hobbs h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+
+.hobbs li{
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: black;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1100px){
+    .hobbs  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .hobbs h1::before{
+        right: 0.5rem;
+}
+    .hobbs h1::after{
+    left: 0.5rem;
+}
+.hobbs li{
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+    margin-top: 8px;
+}
+}
+
+.reff {
+    background-color: white;
+    margin-left:20%;
+    margin-right: 20%;
+}
+
+.reff h1 {
+    padding: 20px;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: black;
+}
+
+.reff h1::before, .reff h1::after {
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 3px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.reff h1::before{
+    right: 1rem;
+    margin-left: -50%;
+}
+
+.reff h1::after{
+    left: 1rem;
+    margin-right: -50%;
+}
+@media screen and (max-width: 1100px){
+    .reff  h1{
+       padding: 5px;
+       font-size: 0.8rem;
+       padding-top: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .reff h1::before{
+        right: 0.5rem;
+}
+    .reff h1::after{
+    left: 0.5rem;
+}
+}
